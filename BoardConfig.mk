@@ -46,8 +46,8 @@ BOARD_KERNEL_BASE := 0x00200000
 BOARD_KERNEL_PAGESIZE := 4096
 
 # Extended filesystem support
-TARGET_KERNEL_HAVE_EXFAT                    := true
-TARGET_KERNEL_HAVE_NTFS                     := true
+TARGET_KERNEL_HAVE_EXFAT := true
+TARGET_KERNEL_HAVE_NTFS := true
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE := 12582912

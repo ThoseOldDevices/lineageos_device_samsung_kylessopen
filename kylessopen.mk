@@ -62,6 +62,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
    camera.msm7x27a
 
+# Charger
+PRODUCT_PACKAGES += \
+    charger \
+    charger_res_images
+
 # Snap Camera
 PRODUCT_PACKAGES += \
     Snap
